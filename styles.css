@@ -1,0 +1,503 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #005f87;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background-color: #e68900;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e8f4fc;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.about-images img {
+    width: 45%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* News Section */
+#news {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#news h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 24px;
+    color: #003366;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+}
+
+#contact h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #ff9900;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-media li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .social-media li a:hover {
+    color: #ff9900;
+}
+
+/* Scroll to Top Button */
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+#scroll-to-top-btn:hover {
+    background-color: #ff9900;
+}
+
+/* Events Carousel */
+#events .carousel {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#events .carousel img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 32px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #555;
+}
+
+.testimonial strong {
+    font-size: 20px;
+    color: #003366;
+}
+
+/* Virtual Tour */
+#virtual-tour {
+    background-color: #e8f4fc;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#virtual-tour iframe {
+    border-radius: 8px;
+}
+
+/* Notifications */
+#notifications {
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.notification-box {
+    background-color: #e8f4fc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.notification-box p {
+    font-size: 18px;
+}
+
+.notification-box .time {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Podcast */
+#podcast {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+#podcast iframe {
+    border-radius: 8px;
+}
+
+/* Calendar */
+#calendar {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Quiz Section */
+#quiz {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#quiz form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#quiz label {
+    font-size: 18px;
+}
+
+#quiz input[type="radio"] {
+    margin: 10px;
+}
+
+#quiz button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#quiz button:hover {
+    background-color: #ff9900;
+}
+
+/* Student Portal */
+#student-portal {
+    padding: 50px 20px;
+    background-color: #e8f4fc;
+    text-align: center;
+}
+
+#student-portal button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#student-portal #login-form {
+    margin-top: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#student-portal input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#student-portal #student-dashboard {
+    margin-top: 20px;
+    display: none;
+}
+
+/* Fee Payment */
+#fee-payment {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#fee-payment form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#fee-payment button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#fee-payment button:hover {
+    background-color: #ff9900;
+}
+
+/* Staff Directory */
+#staff-directory {
+    padding: 50px 20px;
+    background-color: #e8f4fc;
+    text-align: center;
+}
+
+#staff-directory .staff-member {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2.5%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#staff-directory .staff-member img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#staff-directory .staff-member h3 {
+    font-size: 24px;
+    color: #003366;
+}
+
+#staff-directory .staff-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+#staff-directory .staff-member a {
+    text-decoration: none;
+    color: #003366;
+}
+
+/* Event Calendar */
+#event-calendar {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Event Registration */
+#event-registration {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#event-registration form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#event-registration button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#event-registration button:hover {
+    background-color: #ff9900;
+}
+
+/* Alumni Section */
+#alumni {
+    padding: 50px 20px;
+    background-color: #e8f4fc;
+    text-align: center;
+}
+
+#alumni input, #alumni textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#alumni button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
