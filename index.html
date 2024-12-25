@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKMS School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- aos scdn link--- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="AKMS School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to AKMS School</h1>
+            <p>Where Excellence Meets Education</p>
+            <a href="#admission" class="cta-btn">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our school is dedicated to providing a world-class education...</p>
+        <div class="about-images">
+            <img src="img/Hero1.png" alt="Campus Image">
+            <img src="img/hero2.jpeg" alt="Campus Image">
+            <img src="img/hero3.jpeg" alt="Campus Image">
+        </div>
+       
+    </section>
+
+    <section id="news">
+        <h2>Latest News</h2>
+        <div class="news-container">
+            <div class="news-item">
+                <h3>School Event 1</h3>
+                <p>Details about upcoming event 1...</p>
+            </div>
+            <div class="news-item">
+                <h3>School Event 2</h3>
+                <p>Details about upcoming event 2...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+    
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="carousel">
+            <img src="img/school.jpg" alt="Event 1">
+            <!-- <img src="event2.jpg" alt="Event 2">
+            <img src="event3.jpg" alt="Event 3"> -->
+        </div>
+    </section>
+    
+    <section id="news-ticker">
+        <div class="ticker">
+            <p>School news and updates will be displayed here.</p>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"This school has been amazing in nurturing my talents and skills!"</p>
+            <p><strong>- Student 1</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"A wonderful learning environment with caring teachers!"</p>
+            <p><strong>- Parent 1</strong></p>
+        </div>
+    </section>
+    
+    <section id="calendar">
+        <h2>School Calendar</h2>
+        <div id="calendar-widget"></div>
+    </section>
+    
+    <button id="scroll-to-top-btn" onclick="scrollToTop()">↑</button>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="img/school.jpg" alt="Gallery Image 1">
+            <!-- <img src="gallery2.jpg" alt="Gallery Image 2">
+            <img src="gallery3.jpg" alt="Gallery Image 3"> -->
+        </div>
+    </section>
+    
+    <section id="virtual-tour">
+        <h2>Virtual Tour</h2>
+        <div class="tour-container">
+            <iframe src="https://www.youtube.com/watch?v=-IDAYmiKXrA" frameborder="0" width="100%" height="500px"></iframe>
+        </div>
+    </section>
+    
+    <section id="notifications">
+        <h2>Latest Announcements</h2>
+        <div class="notification-box">
+            <p>School will be closed tomorrow due to inclement weather.</p>
+            <span class="time">3 hours ago</span>
+        </div>
+    </section>
+    
+    <section id="podcast">
+        <h2>School Podcast</h2>
+        <div class="podcast-embed">
+            <iframe src="https://www.youtube.com/watch?v=-IDAYmiKXrA" frameborder="0" width="100%" height="150px"></iframe>
+        </div>
+    </section>
+    
+    <section id="timetable">
+        <h2>School Timetable</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Period 1</th>
+                    <th>Period 2</th>
+                    <th>Period 3</th>
+                    <th>Period 4</th>
+                    <!-- <th>Period 5</th>
+                    <th>Period 6</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Math</td>
+                    <td>English</td>
+                    <td>History</td>
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Art</td>
+                    <td>Math</td>
+                    <td>PE</td>
+                    <td>Geography</td>
+                </tr>
+                <!-- Additional rows for other days -->
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="live-chat">
+        <h2>Live Chat</h2>
+        <button id="chat-btn">Chat with Us</button>
+        <div id="chat-window" class="chat-window">
+            <div class="chat-header">
+                <span>Live Chat</span>
+                <button id="close-chat">X</button>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <input type="text" id="chat-input" placeholder="Type a message...">
+            <button id="send-message">Send</button>
+        </div>
+    </section>
+    
+    <section id="language-toggle">
+        <label for="language-select">Select Language:</label>
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="ur">Urdu</option>
+        </select>
+    </section>
+    
+    <section id="quiz">
+        <h2>Take the Quiz</h2>
+        <form id="quiz-form">
+            <label>What is the school motto?</label><br>
+            <input type="radio" name="question1" value="Success"> Success<br>
+            <input type="radio" name="question1" value="Knowledge"> Knowledge<br>
+            <input type="radio" name="question1" value="Excellence"> Excellence<br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="quiz-result"></div>
+    </section>
+    
+    <section id="student-portal">
+        <h2>Student Portal</h2>
+        <button id="login-btn">Login</button>
+        <div id="login-form" class="portal-form">
+            <h3>Login</h3>
+            <input type="email" id="email" placeholder="Enter your email">
+            <input type="password" id="password" placeholder="Enter your password">
+            <button id="submit-login">Submit</button>
+        </div>
+        <div id="student-dashboard" class="dashboard">
+            <h3>Welcome, Student!</h3>
+            <p>Your Grades: A</p>
+            <p>Your Assignments: 3 Pending</p>
+        </div>
+    </section>
+    
+    <section id="fee-payment">
+        <h2>Fee Payment</h2>
+        <p>Pay your school fees online:</p>
+        <form id="payment-form">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount">
+            <button type="submit">Pay Now</button>
+        </form>
+    </section>
+    
+    <section id="staff-directory">
+        <h2>Teacher and Staff Directory</h2>
+        <div class="staff-member">
+            <img src="img/sir.png" alt="Teacher 1">
+            <h3>Syed Mujtaba Kazim (Late)</h3>
+            <p>Owner's of school</p>
+            
+        </div>
+        <div class="staff-member">
+            <img src="img/sir kashan.jpg" alt="Teacher 2">
+            <h3>Syed Muhammad Kashan Kazim</h3>
+            <p>Prienciple</p>
+            <p>Email: janesmith@school.com</p>
+        </div>
+    </section>
+    
+    <section id="event-calendar">
+        <h2>School Events Calendar</h2>
+        <div class="calendar-container">
+            <iframe src="https://calendar.google.com/calendar/embed?src=your-calendar-id&ctz=Your-Timezone" frameborder="0" width="800" height="600"></iframe>
+        </div>
+    </section>
+    
+    <section id="event-registration">
+        <h2>Register for Events</h2>
+        <form id="registration-form">
+            <label for="event">Select Event:</label>
+            <select id="event">
+                <option value="sports-day">Sports Day</option>
+                <option value="parent-teacher">Parent-Teacher Meeting</option>
+                <option value="science-fair">Science Fair</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    
+    <section id="alumni">
+        <h2>Alumni Section</h2>
+        <form id="alumni-form">
+            <input type="text" id="alumni-name" placeholder="Enter your name">
+            <input type="email" id="alumni-email" placeholder="Enter your email">
+            <textarea id="alumni-achievements" placeholder="Share your achievements"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 AKMS School. All Rights Reserved.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- aos cdn link------ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
